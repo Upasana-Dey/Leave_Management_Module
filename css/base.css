@@ -1,0 +1,223 @@
+body{
+  background:#012236;
+  font-family: 'Lato', arial, cursive;
+}    
+.bg-white {
+	background-color: #fff;
+}
+ul {
+  padding-left: 0;
+}
+
+ul li {
+  list-style: none; 
+  padding: 5px 0;
+  text-transform: uppercase;
+}
+
+ul li a.active {color: #fff;}
+
+.headerimg{
+  margin-top:40px;
+  margin-left:10px;
+  margin-bottom:30px;
+}
+
+  
+    .box {
+    border-radius: 10px;
+    background: white;
+    padding: 15px; 
+    min-height: 200px;
+    margin-bottom: 20px;
+   
+  }
+  ul {
+    padding-left: 0;
+  }
+  ul li {
+    list-style: none; 
+    padding: 5px 0;
+    text-transform: uppercase;
+  }
+  
+  ul li a.active {color: #fff;}
+  
+  .headerimg{
+    margin-top:40px;
+    margin-left:10px;
+    margin-bottom:30px;
+  }
+  h4{
+      font-weight: bolder;
+      margin:20px;
+      margin-top: 10px;
+      padding: 30px;
+      margin-bottom:2px;
+      padding-left: 30px
+      
+  }
+  label
+  {
+    font-size: 15px;
+  }
+
+ .blocks,.insidecol
+ {
+   padding:20px;
+   padding-top:10px;
+ }
+
+
+
+sup{
+  font-size:15px;
+}
+
+
+/***** Heading *****/
+h1, h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h1
+{
+text-align: center;
+font-size: 40px; 
+color: #012236;
+}
+
+h2
+{
+margin-bottom: 50px;
+font-size:24px;
+}
+
+/***** Form *****/
+
+
+input[type='text'], input[type='date'], select, input[type='number'], input[type='password'] { 
+    
+    border: none;
+    border-bottom: solid #03A9F4 2px;
+    outline: none;
+    outline-style: none;
+    width: 100%;
+    margin-bottom:20px;
+  }
+
+  button,input[type="button"]
+{
+  color:#03A9F4;
+  background-color: #fff;
+    border: transparent;
+    border-radius:5px;
+    padding: 10px 40px;
+    margin-bottom: 20px;
+    margin-right:20px;
+    float: right;
+    display: inline-block;
+    font-size: 14px;
+    /* font-weight: bold; */
+    text-transform: uppercase;
+    /* width: 100%; */
+}
+button:active, button:hover
+{
+  color:#fff;
+  background-color:#03A9F4;
+  border: none;
+}
+
+.button
+{
+  background-color:#03A9F4;
+  color: #fff;
+}
+
+input[type='radio'] {
+  -webkit-appearance:none;
+  width:15px;
+  height:15px;
+  border:2px solid gray;
+  border-radius:45%;
+  outline:none;
+  
+}
+input[type='radio']:checked,input[type='radio']:hover { 
+  border:2px solid #03A9F4;
+}
+input[type='radio']::before {
+  content:'';
+  display:block;
+  width:60%;
+  height:60%;
+  margin: 20% auto;    
+  border-radius:50%;    
+}
+input[type='radio']:checked:before
+{
+  background:#03A9F4;
+}
+/* CALENDER*/
+input[type="date"]::-webkit-calendar-picker-indicator {
+  color: rgba(0, 0, 0, 0);
+  opacity: 1;
+  /* display: block; */
+  background: url(../images/ico-cal.png) no-repeat;
+  width: 10px;
+  height: 10px;
+  /* border-width: thin; */
+}
+input[type=date]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  /* display: none; */
+
+}
+
+/***** Login *****/
+.login-wrapper {
+    box-shadow: 0 0 15px rgb(201, 200, 200);
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 150px;
+    padding: 45px;
+}
+
+
+.login .button {
+  width: 100%; 
+  border:none; 
+  padding: 10px; 
+  border-radius: 5px;
+text-transform: uppercase;
+margin-top:10px;}
+
+.login input,.login p {
+  margin-top:10px;
+}
+.login p {
+  text-align: center;
+}
+.Bankdetails
+{
+  padding:0;
+}
+.bandetails
+{
+  padding-bottom: 0
+}
+
+
+.content-wrapper {
+  background-color: #fff;
+  border-radius:10px;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+
+footer p {
+color: #fff; 
+text-align: center; 
+padding-bottom: 20px;}

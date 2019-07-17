@@ -1,0 +1,38 @@
+th {
+  background-color: #012236;
+  color:#fff;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+th, td {
+  border: solid 1px #f5f5f5;
+  padding:10px;
+}
+a{
+color:#03a9f4;
+}
+.reject{
+color:red;
+}
+.headings{
+  border: solid 1px #f5f5f5;
+}
+.tableresponsiveclass{
+	overflow-x:auto;
+}
+
+.tableheading{
+	padding: 40px;
+      padding-left: 0px;
+      padding-bottom: 20px;
+      font-size:20px;
+}
+
+.hiderow{
+  visibility: hidden;
+border:0;
+}
+
+#mybox {
+  display: none;
+}
